@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{ /*Calling a string*/
+char str1[]="Programming is like building a multilingual puzzle\n";
+/* Giving puts a command*/
+puts(str1);
 
-  char str1[]="Programming is like building a multiingual puzzle\n";
-
-  puts(str1);
-
-  return(0);
+return(0);
 }
