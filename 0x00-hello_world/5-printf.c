@@ -3,9 +3,9 @@
 /**
 * main - main function
 * Description: prints out a statement without using puts
-* retuns 0 (success)
+* Return: 0 (success)
 */
-int main()
+int main(void)
 {printf("with proper grammar, but the outcome is a piece of art,");
-return 0;
+return (0);
 }
