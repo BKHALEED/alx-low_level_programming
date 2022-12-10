@@ -1,10 +1,14 @@
 #include<stdio.h>
 #include <string.h>
-/*main should be void. The Beginning of the program*/
+/*main - Entry point
+*
+* Description: 'This print out a statement without using printf statement
+* Return: Always 0 (success) 
+*/
 int main(void)
 {/*Calling a string*/
 char str1[] = "\"Programming is like building a multilingual puzzle";
 /* writing a stdout using puts*/
 puts(str1);
- return (0);
+return (0);
 }
