@@ -6,11 +6,11 @@
 * Return: 0 (Success)
 */
 int main(void)
-{char chrtype;
-int inttype;
-long int longinttype;
-long long longlongtype;
-float floattype;
+{char chrType;
+int intType;
+long int longintType;
+long long longlongType;
+float floatType;
 printf("Size of a char: %Id byte",sizeof(char));
 printf("Size of an int: %Id byte", sizeof(int));
 printf("Size of a long int: %Id byte",sizeof(long int));
