@@ -11,11 +11,11 @@ int intType;
 long int longintType;
 long long longlongType;
 float floatType;
-printf("Size of a char: %Id byte",sizeof(char));
-printf("Size of an int: %Id byte", sizeof(int));
-printf("Size of a long int: %Id byte",sizeof(long int));
-pritnf("Size of a long long: %Id byte",sizeof(long long));
-printf("Size of a float: %Id byte",sizeof(float));
+printf("Size of a char: %Id byte",sizeof(charType));
+printf("Size of an int: %Id byte", sizeof(intType));
+printf("Size of a long int: %Id byte",sizeof(intType));
+pritnf("Size of a long long: %Id byte",sizeof(longlongtype));
+printf("Size of a float: %Id byte",sizeof(floatType));
 return (0);
 }
  
