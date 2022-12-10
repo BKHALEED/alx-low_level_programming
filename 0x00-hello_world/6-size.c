@@ -9,7 +9,7 @@ int main(void)
 {
 printf("Size of a char: %Id byte",sizeof(char));
 printf("Size of an int: %Id byte", sizeof(int));
-printf("Size of a long int: %Id byte",sizeof(lont int));
+printf("Size of a long int: %Id byte",sizeof(long int));
 pritnf("Size of a long long: %Id byte",sizeof(long long));
 printf("Size of a float: %Id byte",sizeof(float));
 return (0);
