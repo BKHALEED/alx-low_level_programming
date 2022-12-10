@@ -6,7 +6,7 @@
 * Return: 0 (Success)
 */
 int main(void)
-{char chrType;
+{char charType;
 int intType;
 long int longintType;
 long long longlongType;
