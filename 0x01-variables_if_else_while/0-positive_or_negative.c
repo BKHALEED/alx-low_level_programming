@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main: print a random number
- * Description: if it is potive, if it is negative, if it is zero
+ * Main: void
+ * Description: if it is positive, if it is negative, if it is zero
  * Return: 0 (Success)
  */
 int main(void)
