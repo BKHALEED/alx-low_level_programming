@@ -9,15 +9,15 @@
 int main(void)
 {
 int n;
-int k;
+int x;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("Last digit of %d is %d", n, k);
-if (k > 5)
+printf("Last digit of %d is %d", n, x);
+if (x > 5)
 {
 printf(" and is greater than 5");
 }
-else if (k < 6 && k != 0)
+else if (x < 6 && x != 0)
 {
 printf(" and is less than 6 and not 0");
 }
