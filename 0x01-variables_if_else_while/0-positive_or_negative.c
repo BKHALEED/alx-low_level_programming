@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main: void
- * Description: if it is positive, if it is negative, if it is zero
+ * main - This should be Void
+ * Description: 'if it is positive, if it is negative, if it is zero'
  * Return: 0 (Success)
  */
 int main(void)
