@@ -8,7 +8,7 @@
 int main(void)
 {
 	int dt;
-	for (dt = '0'; dt <= '9'; dt++) 
+	for (dt = '0'; dt <= '9'; dt++)
 	{
 		putchar(dt);
 	}
