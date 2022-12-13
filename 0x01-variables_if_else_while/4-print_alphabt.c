@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main: this hould be void
- * description: This is a print that omits q, e
+ * description: This is a print that omits q, e and print the rest
  * Return: 0 (successs
  */
 int main(void)
