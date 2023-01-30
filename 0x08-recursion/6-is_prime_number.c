@@ -1,37 +1,30 @@
-# include "main.h"
-
-int check_prime(int, int);
+#include <stdio.h>
 /**
- *is_prime_number -> prime identifier
- *@n: is number
- *Return: integer
- **/
+ * prime_finder - finds out if a number is prime recursively
+ *
+ * @x: number to determine if prime
+ * @y: number to check if divisor
+ *
+ * Return: 1 if prime, 0 otherwise
+ */
+int prime_finder(int x, int y)
+{
+	if (x == y)
+		return (1);
+	if (!(x % y))
+		return (0);
+	return (prime_finder(x, y + 1));
+}
+/**
+ * is_prime_number - returns if a number is prime
+ *
+ * @n: number to determine primeness of
+ *
+ * Return: 1 if prime, 0 otherwise
+ */
 int is_prime_number(int n)
 {
-	if (n % a == 0)
-	{
-		if (n == a)
-			return (1);
-		else
-			return (0);
-	}
-		return (check_prime(n, a + 1));
-}
-
-
-/**
- *check_prime -> it check prime numbers
- *@n: number
- *@i: iterator
- *Return: a 1 or 0
- **/
-int check_prime(int n, int i)
-{
-	if (n == 0)
+	if (n < 2)
 		return (0);
-	if (n < 0)
-		return (0);
-	if (n == 1)
-		return (0);
-	return (check_prime(n, 2));
+	return (prime_finder(n, 2));
 }
