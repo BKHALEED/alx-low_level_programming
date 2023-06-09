@@ -25,10 +25,11 @@ int _sqrt_recursion(int n)
 {
 	int i = 0;
 
-	if (i < 0)
+	if (n < 0)
 		return (-1);
+
 	if (n == 1)
 		return (1);
 
-	return (_evaluate(i, n));
+	return (_evaluate(n, i));
 }
