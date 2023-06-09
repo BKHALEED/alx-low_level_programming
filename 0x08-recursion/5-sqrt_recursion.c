@@ -8,13 +8,11 @@
  */
 int _evaluate(int i, int n)
 {
-	if (n == 0 || n == 1)
-		return (n);
-	else if (i * i < n)
-		return (_evaluate(i = i, n));
-	else if (i * i == n) /* Condition base*/
+	if ((i * i) == n)
 		return (i);
-	return (-1);
+	if (i == n / 2)
+		return (-1);
+	return (_evaluate(n, i + 1));
 }
 /**
  * _sqrt_recursion - evaluate sqrt
