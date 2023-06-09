@@ -10,7 +10,7 @@ int _sqrt_recursion(int n);
  * @n: integers
  * Return: evaluate sqrt
  */
-int _evaluate(int i, int n)
+int _evaluate(int n, int i)
 {
 	if ((i * i) == n)
 		return (i);
@@ -21,7 +21,7 @@ int _evaluate(int i, int n)
 /**
  * _sqrt_recursion - return the natural root os a number
  * @n: integers
- * Return: if n has a natural square root - the natural sqrt if n does'nt a natural sqrt - - 1.
+ * Return: if n has a natural square root
  */
 int _sqrt_recursion(int n)
 {
